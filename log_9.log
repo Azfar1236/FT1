@@ -1,0 +1,8 @@
+nohup: ignoring input
+[13:53:56] CUSTOM REGION mode: RA [0.0,360.0] Dec [-60.0,60.0] split into 240 Dec bands. NOTE: this covers ONLY this box, not the whole sky - use --all-sky for that.
+[13:53:56] Using device: cuda
+[13:53:58] Loaded classifier from classifier_model.pt
+[13:53:58] [1/240] real_sky_9_band0: RA [0.00,360.00] Dec [-60.000,-59.500]
+[13:56:15]   real_sky_9_band0: 3000000 apparitions retrieved
+[13:56:15]     clustering 3000000 apparitions with DBSCAN...
+[13:57:08]     DBSCAN found 126759 candidate clusters (+ noise); building light curves...

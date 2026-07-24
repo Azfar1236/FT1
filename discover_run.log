@@ -1,10 +1,8 @@
-usage: discover_hidden_objects.py [-h] [--all-sky]
-                                  [--tile-size-deg TILE_SIZE_DEG]
-                                  [--tile-start TILE_START]
-                                  [--tile-end TILE_END] [--ra-min RA_MIN]
-                                  [--ra-max RA_MAX] [--dec-min DEC_MIN]
-                                  [--dec-max DEC_MAX]
-                                  [--region-name REGION_NAME] [--model MODEL]
-                                  [--checkpoint CHECKPOINT]
-                                  [--results RESULTS]
-discover_hidden_objects.py: error: --ra-min, --ra-max required unless --all-sky is set
+nohup: ignoring input
+[13:51:29] CUSTOM REGION mode: RA [0.0,360.0] Dec [-60.0,60.0] split into 240 Dec bands. NOTE: this covers ONLY this box, not the whole sky - use --all-sky for that.
+[13:51:29] Using device: cuda
+[13:51:29] Loaded classifier from classifier_model.pt
+[13:51:29] [1/240] real_sky_band0: RA [0.00,360.00] Dec [-60.000,-59.500]
+[13:53:28]   real_sky_band0: 3000000 apparitions retrieved
+[13:53:28]     clustering 3000000 apparitions with DBSCAN...
+[13:53:41]     DBSCAN found 126707 candidate clusters (+ noise); building light curves...
