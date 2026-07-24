@@ -94,10 +94,10 @@ def quality_filter(df):
       - finite magnitudes
     """
     mask = (
-        (df["qual_frame"] >= 10) &
-        (df["saa_sep"]    >= 0)  &
-        (df["moon_masked"] == 0) &
-        df["w1mpro"].notna()     &
+        (df["qual_frame"].fillna(0) >= 10) &
+        (df["saa_sep"].fillna(999)  >= 0)  &
+        (df["moon_masked"].fillna(0) == 0)  &
+        df["w1mpro"].notna()               &
         df["w2mpro"].notna()
     )
     return df[mask].copy()
@@ -300,9 +300,9 @@ if __name__ == "__main__":
     # Your two candidates that returned data last time
     # Add more from your DBSCAN anomaly list here
     candidates = [
-        {"ra": 53.699,  "dec":  0.0,   "label": "Cand-A (RA=53.699)",
+        {"ra": 53.699,  "dec": -88.4291, "label": "Cand-A (RA=53.699)",
          "classifier_class": "continuous_variable"},
-        {"ra": 12.977,  "dec":  0.0,   "label": "Cand-B (RA=12.977)",
+        {"ra": 12.977,  "dec": -88.6041, "label": "Cand-B (RA=12.977)",
          "classifier_class": "continuous_variable"},
         # Add more candidates from your list, e.g.:
         # {"ra": XX.XXX,  "dec": YY.YYY, "label": "Cand-C", "classifier_class": "dip_transient"},
@@ -314,7 +314,7 @@ if __name__ == "__main__":
           f"Visit gap: {VISIT_GAP_DAYS} days")
     print("=" * 60)
     
-    plot_lightcurve_panel(candidates, output_path="/home/claude/neowise_lc_fixed.png")
+    plot_lightcurve_panel(candidates, output_path="/workspace/FT1/neowise_lc_fixed.png")
     
     print("\nInterpretation guide:")
     print("  Grey dots  = individual NEOWISE exposures (noisy)")
