@@ -1,0 +1,10 @@
+usage: discover_hidden_objects.py [-h] [--all-sky]
+                                  [--tile-size-deg TILE_SIZE_DEG]
+                                  [--tile-start TILE_START]
+                                  [--tile-end TILE_END] [--ra-min RA_MIN]
+                                  [--ra-max RA_MAX] [--dec-min DEC_MIN]
+                                  [--dec-max DEC_MAX]
+                                  [--region-name REGION_NAME] [--model MODEL]
+                                  [--checkpoint CHECKPOINT]
+                                  [--results RESULTS]
+discover_hidden_objects.py: error: --ra-min, --ra-max required unless --all-sky is set

@@ -1,0 +1,19 @@
+nohup: ignoring input
+============================================================
+NEOWISE Light Curve Pipeline — Fixed Version
+Timeout: 120s | Retries: 3 | Visit gap: 15 days
+============================================================
+  [IRSA] Query attempt 1/3 for RA=53.6990, Dec=-88.4291 ...
+  [IRSA] OK — 331 raw exposures returned
+  Cand-A (RA=53.699): 331 raw → 0 after QC filter
+  [IRSA] Query attempt 1/3 for RA=12.9770, Dec=-88.6041 ...
+  [IRSA] OK — 343 raw exposures returned
+  Cand-B (RA=12.977): 343 raw → 0 after QC filter
+
+✓ Saved: /workspace/FT1/neowise_lc_fixed.png
+
+Interpretation guide:
+  Grey dots  = individual NEOWISE exposures (noisy)
+  Coloured ○ = visit-averaged magnitude (real signal, if any)
+  Δmag < 0.1 → probably noise, not real variability
+  Δmag > 0.3 → worth cross-matching SIMBAD / VSX manually
