@@ -10,3 +10,4 @@ nohup: ignoring input
 [03:53:19]     135121 variable candidates; cross-matching against AllWISE...
 [04:54:51]   allwise_batch_crossmatch: attempt 1/5 failed (TimeoutError: allwise_batch_crossmatch: job did not complete within 3600s) - retrying in 2s
 [05:56:30]   allwise_batch_crossmatch: attempt 2/5 failed (TimeoutError: allwise_batch_crossmatch: job did not complete within 3600s) - retrying in 4s
+[06:58:10]   allwise_batch_crossmatch: attempt 3/5 failed (TimeoutError: allwise_batch_crossmatch: job did not complete within 3600s) - retrying in 8s
