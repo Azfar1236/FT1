@@ -121,5 +121,5 @@ python3 discover_hidden_objects.py --ra-min 0 --ra-max 360 --dec-min -60 --dec-m
 
 ## 📬 Contact
 
-**Arslann** | Physics Student | NEDUET Karachi, Pakistan  
+**SYEDA ZOHA ALI** | Physics Student | NEDUET Karachi, Pakistan  
 GitHub: github.com/Azfar1236/FT1
