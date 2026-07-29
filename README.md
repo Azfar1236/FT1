@@ -92,13 +92,6 @@ Candidate J180922.16-042347.2 identified
 
 ---
 
-## 🔬 Next Steps
-
-- [ ] Infrared spectroscopy via Las Cumbres Observatory (lco.global/education)
-- [ ] Contact Dr. Dunham (dunham@cwu.edu) — author of Serpens YSO catalog
-- [ ] Submit to arXiv as research note if spectroscopy confirms YSO
-
----
 
 ## 🛠️ How to Run
 
